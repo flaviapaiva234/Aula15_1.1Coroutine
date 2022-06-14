@@ -7,7 +7,8 @@ import android.util.Log
 import com.example.aula15_11funcionando.databinding.ActivityMainBinding
 import kotlinx.coroutines.*
 
-// esse app da erro pq fica com um loop infinito na thread principal, fazerdo app travar
+// esse app está funcionando, foi corrigido o erro do loop infinito com o Coroutine, e com o myJob controlando o Coroutine,
+// e um Deley para incrementer um certo tempo entre um número e outro.
 
 class MainActivity : AppCompatActivity() {
     //1.
